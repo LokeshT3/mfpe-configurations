@@ -1,13 +1,6 @@
 jwt:
   secret: jwtmfpesecretkey
 
-logging:
-  level:
-    org:
-      hibernate: ERROR
-      springframework:
-        web: DEBUG
-    root: INFO
 server:
   port: 8084
   servlet:
@@ -31,3 +24,10 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
+logging:
+  level:
+    org:
+      hibernate: ERROR
+      springframework:
+        web: DEBUG
+    root: INFO
