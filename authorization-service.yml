@@ -26,6 +26,7 @@ spring:
       matching-strategy: ANT_PATH_MATCHER
       
 logging:
+  file: ${HOME}/application.log
   level:
     org:
       hibernate: ERROR
